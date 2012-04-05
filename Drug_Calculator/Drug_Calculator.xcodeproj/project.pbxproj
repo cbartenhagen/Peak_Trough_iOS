@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D85355C8152A6EBD00A2209F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85355C7152A6EBD00A2209F /* UIKit.framework */; };
+		D85355CA152A6EBD00A2209F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85355C9152A6EBD00A2209F /* Foundation.framework */; };
+		D85355CC152A6EBD00A2209F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85355CB152A6EBD00A2209F /* CoreGraphics.framework */; };
+		D85355D2152A6EBD00A2209F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D85355D0152A6EBD00A2209F /* InfoPlist.strings */; };
+		D85355D4152A6EBD00A2209F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D85355D3152A6EBD00A2209F /* main.m */; };
+		D85355D8152A6EBD00A2209F /* Drug_CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D85355D7152A6EBD00A2209F /* Drug_CalculatorAppDelegate.m */; };
+		D85355DB152A6EBD00A2209F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85355D9152A6EBD00A2209F /* MainStoryboard.storyboard */; };
+		D85355DE152A6EBD00A2209F /* Drug_CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85355DD152A6EBD00A2209F /* Drug_CalculatorViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D85355C3152A6EBD00A2209F /* Drug_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drug_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85355C7152A6EBD00A2209F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D85355C9152A6EBD00A2209F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D85355CB152A6EBD00A2209F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D85355CF152A6EBD00A2209F /* Drug_Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drug_Calculator-Info.plist"; sourceTree = "<group>"; };
+		D85355D1152A6EBD00A2209F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D85355D3152A6EBD00A2209F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D85355D5152A6EBD00A2209F /* Drug_Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drug_Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		D85355D6152A6EBD00A2209F /* Drug_CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drug_CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		D85355D7152A6EBD00A2209F /* Drug_CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drug_CalculatorAppDelegate.m; sourceTree = "<group>"; };
+		D85355DA152A6EBD00A2209F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D85355DC152A6EBD00A2209F /* Drug_CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drug_CalculatorViewController.h; sourceTree = "<group>"; };
+		D85355DD152A6EBD00A2209F /* Drug_CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drug_CalculatorViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D85355C0152A6EBD00A2209F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85355C8152A6EBD00A2209F /* UIKit.framework in Frameworks */,
+				D85355CA152A6EBD00A2209F /* Foundation.framework in Frameworks */,
+				D85355CC152A6EBD00A2209F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D85355B8152A6EBD00A2209F = {
+			isa = PBXGroup;
+			children = (
+				D85355CD152A6EBD00A2209F /* Drug_Calculator */,
+				D85355C6152A6EBD00A2209F /* Frameworks */,
+				D85355C4152A6EBD00A2209F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D85355C4152A6EBD00A2209F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85355C3152A6EBD00A2209F /* Drug_Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D85355C6152A6EBD00A2209F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D85355C7152A6EBD00A2209F /* UIKit.framework */,
+				D85355C9152A6EBD00A2209F /* Foundation.framework */,
+				D85355CB152A6EBD00A2209F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D85355CD152A6EBD00A2209F /* Drug_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				D85355D6152A6EBD00A2209F /* Drug_CalculatorAppDelegate.h */,
+				D85355D7152A6EBD00A2209F /* Drug_CalculatorAppDelegate.m */,
+				D85355D9152A6EBD00A2209F /* MainStoryboard.storyboard */,
+				D85355DC152A6EBD00A2209F /* Drug_CalculatorViewController.h */,
+				D85355DD152A6EBD00A2209F /* Drug_CalculatorViewController.m */,
+				D85355CE152A6EBD00A2209F /* Supporting Files */,
+			);
+			path = Drug_Calculator;
+			sourceTree = "<group>";
+		};
+		D85355CE152A6EBD00A2209F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D85355CF152A6EBD00A2209F /* Drug_Calculator-Info.plist */,
+				D85355D0152A6EBD00A2209F /* InfoPlist.strings */,
+				D85355D3152A6EBD00A2209F /* main.m */,
+				D85355D5152A6EBD00A2209F /* Drug_Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D85355C2152A6EBD00A2209F /* Drug_Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85355E1152A6EBD00A2209F /* Build configuration list for PBXNativeTarget "Drug_Calculator" */;
+			buildPhases = (
+				D85355BF152A6EBD00A2209F /* Sources */,
+				D85355C0152A6EBD00A2209F /* Frameworks */,
+				D85355C1152A6EBD00A2209F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drug_Calculator;
+			productName = Drug_Calculator;
+			productReference = D85355C3152A6EBD00A2209F /* Drug_Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85355BA152A6EBD00A2209F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "The University of Iowa";
+			};
+			buildConfigurationList = D85355BD152A6EBD00A2209F /* Build configuration list for PBXProject "Drug_Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D85355B8152A6EBD00A2209F;
+			productRefGroup = D85355C4152A6EBD00A2209F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D85355C2152A6EBD00A2209F /* Drug_Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D85355C1152A6EBD00A2209F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85355D2152A6EBD00A2209F /* InfoPlist.strings in Resources */,
+				D85355DB152A6EBD00A2209F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D85355BF152A6EBD00A2209F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85355D4152A6EBD00A2209F /* main.m in Sources */,
+				D85355D8152A6EBD00A2209F /* Drug_CalculatorAppDelegate.m in Sources */,
+				D85355DE152A6EBD00A2209F /* Drug_CalculatorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D85355D0152A6EBD00A2209F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85355D1152A6EBD00A2209F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D85355D9152A6EBD00A2209F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85355DA152A6EBD00A2209F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D85355DF152A6EBD00A2209F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D85355E0152A6EBD00A2209F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D85355E2152A6EBD00A2209F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drug_Calculator/Drug_Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Drug_Calculator/Drug_Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D85355E3152A6EBD00A2209F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drug_Calculator/Drug_Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Drug_Calculator/Drug_Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D85355BD152A6EBD00A2209F /* Build configuration list for PBXProject "Drug_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85355DF152A6EBD00A2209F /* Debug */,
+				D85355E0152A6EBD00A2209F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85355E1152A6EBD00A2209F /* Build configuration list for PBXNativeTarget "Drug_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85355E2152A6EBD00A2209F /* Debug */,
+				D85355E3152A6EBD00A2209F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D85355BA152A6EBD00A2209F /* Project object */;
+}
