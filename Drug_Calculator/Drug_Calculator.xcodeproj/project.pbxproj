@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		608D1CB2154602340031ECBA /* Drug_Calculator_Brain.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D1CB1154602340031ECBA /* Drug_Calculator_Brain.m */; };
+		60E8A27E15495B2F0042DEED /* DatePickerInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E8A27D15495B2E0042DEED /* DatePickerInputView.m */; };
+		60F72FC91546080400B19333 /* Drug_CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F72FC81546080300B19333 /* Drug_CalculatorViewController.m */; };
 		D85355C8152A6EBD00A2209F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85355C7152A6EBD00A2209F /* UIKit.framework */; };
 		D85355CA152A6EBD00A2209F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85355C9152A6EBD00A2209F /* Foundation.framework */; };
 		D85355CC152A6EBD00A2209F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85355CB152A6EBD00A2209F /* CoreGraphics.framework */; };
@@ -14,10 +17,15 @@
 		D85355D4152A6EBD00A2209F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D85355D3152A6EBD00A2209F /* main.m */; };
 		D85355D8152A6EBD00A2209F /* Drug_CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D85355D7152A6EBD00A2209F /* Drug_CalculatorAppDelegate.m */; };
 		D85355DB152A6EBD00A2209F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85355D9152A6EBD00A2209F /* MainStoryboard.storyboard */; };
-		D85355DE152A6EBD00A2209F /* Drug_CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85355DD152A6EBD00A2209F /* Drug_CalculatorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		608D1CB0154602340031ECBA /* Drug_Calculator_Brain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drug_Calculator_Brain.h; sourceTree = "<group>"; };
+		608D1CB1154602340031ECBA /* Drug_Calculator_Brain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drug_Calculator_Brain.m; sourceTree = "<group>"; };
+		60E8A27C15495B2E0042DEED /* DatePickerInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerInputView.h; sourceTree = "<group>"; };
+		60E8A27D15495B2E0042DEED /* DatePickerInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerInputView.m; sourceTree = "<group>"; };
+		60F72FC71546080300B19333 /* Drug_CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drug_CalculatorViewController.h; sourceTree = "<group>"; };
+		60F72FC81546080300B19333 /* Drug_CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drug_CalculatorViewController.m; sourceTree = "<group>"; };
 		D85355C3152A6EBD00A2209F /* Drug_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drug_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85355C7152A6EBD00A2209F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D85355C9152A6EBD00A2209F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,8 +37,6 @@
 		D85355D6152A6EBD00A2209F /* Drug_CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drug_CalculatorAppDelegate.h; sourceTree = "<group>"; };
 		D85355D7152A6EBD00A2209F /* Drug_CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drug_CalculatorAppDelegate.m; sourceTree = "<group>"; };
 		D85355DA152A6EBD00A2209F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D85355DC152A6EBD00A2209F /* Drug_CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drug_CalculatorViewController.h; sourceTree = "<group>"; };
-		D85355DD152A6EBD00A2209F /* Drug_CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drug_CalculatorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +83,16 @@
 		D85355CD152A6EBD00A2209F /* Drug_Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				60F72FC71546080300B19333 /* Drug_CalculatorViewController.h */,
+				60F72FC81546080300B19333 /* Drug_CalculatorViewController.m */,
+				608D1CB0154602340031ECBA /* Drug_Calculator_Brain.h */,
+				608D1CB1154602340031ECBA /* Drug_Calculator_Brain.m */,
 				D85355D6152A6EBD00A2209F /* Drug_CalculatorAppDelegate.h */,
 				D85355D7152A6EBD00A2209F /* Drug_CalculatorAppDelegate.m */,
 				D85355D9152A6EBD00A2209F /* MainStoryboard.storyboard */,
-				D85355DC152A6EBD00A2209F /* Drug_CalculatorViewController.h */,
-				D85355DD152A6EBD00A2209F /* Drug_CalculatorViewController.m */,
 				D85355CE152A6EBD00A2209F /* Supporting Files */,
+				60E8A27C15495B2E0042DEED /* DatePickerInputView.h */,
+				60E8A27D15495B2E0042DEED /* DatePickerInputView.m */,
 			);
 			path = Drug_Calculator;
 			sourceTree = "<group>";
@@ -163,7 +173,9 @@
 			files = (
 				D85355D4152A6EBD00A2209F /* main.m in Sources */,
 				D85355D8152A6EBD00A2209F /* Drug_CalculatorAppDelegate.m in Sources */,
-				D85355DE152A6EBD00A2209F /* Drug_CalculatorViewController.m in Sources */,
+				608D1CB2154602340031ECBA /* Drug_Calculator_Brain.m in Sources */,
+				60F72FC91546080400B19333 /* Drug_CalculatorViewController.m in Sources */,
+				60E8A27E15495B2F0042DEED /* DatePickerInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +289,7 @@
 				D85355E3152A6EBD00A2209F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
