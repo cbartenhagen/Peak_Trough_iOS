@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DatePickerInputView.h"
 
-@interface Drug_CalculatorViewController : UIViewController
+
+@interface Drug_CalculatorViewController : UIViewController 
+@property (strong, nonatomic) IBOutlet UILabel *troughValueLabel;
+@property (strong, nonatomic) IBOutlet UILabel *peakValueLabel;
+
+
+-(IBAction)calculatePressed:(UIButton *)sender; 
+-(IBAction)savePressed:(UIButton *)sender;
 
 @end
