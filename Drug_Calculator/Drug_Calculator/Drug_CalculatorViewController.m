@@ -35,7 +35,7 @@
 
 @synthesize troughValueLabel = _troughValueLabel;
 @synthesize peakValueLabel = _peakValueLabel;
-
+@synthesize drug = _drug;
 @synthesize brain = _brain;
 //@synthesize actionSheet = _actionSheet;
 
@@ -73,6 +73,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"Drug pressed was %@", _drug);
 
     DatePickerInputView *dateEntryView = [[DatePickerInputView alloc] init];
     dateEntryView.datePicker.datePickerMode = UIDatePickerModeTime;
@@ -166,16 +168,17 @@
 -(IBAction)savePressed:(UIButton *)sender {
      NSLog(@"save pressed ");
     
+    [self performSegueWithIdentifier:@"SaveSegue" sender:self];
+    
 }
 
-//
-//- (IBAction)dateChanged:(id)sender {
-//    UIDatePicker *picker = (UIDatePicker *)sender;
-//    
-//    self.infusionStartTextField.text = [NSString stringWithFormat:@"%@", picker.date];
-//}
-//
-//
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([[segue identifier] isEqualToString:@"SaveSegue"])
+    {
+        
+    }
+    
+}
 
 
 

@@ -8,7 +8,7 @@
         <scene sceneID="4">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
-                <viewController title="Main" id="2" customClass="Drug_CalculatorViewController" sceneMemberID="viewController">
+                <viewController title="Main" id="2" customClass="Drug_SelectionViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -382,7 +382,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="2416" y="-1154"/>
+            <point key="canvasLocation" x="2410" y="-1144"/>
         </scene>
         <scene sceneID="d9t-VA-18v">
             <objects>
@@ -571,29 +571,6 @@
             <point key="canvasLocation" x="2432" y="200"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="Drug_CalculatorViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/Drug_CalculatorViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="calculatePressed:" candidateClass="UIButton"/>
-                <relationship kind="action" name="savePressed:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="dosingIntervalLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="dosingIntervalTextfield" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="dosingIntervalTimeLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="firstLevelTimeTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="firstLevelValueTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="infusionDurationLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="infusionDurationTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="infusionLengthTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="infusionStartTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="infustionDurationTimeLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="peakValueLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="secondLevelTimeTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="secondLevelValueTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="troughValueLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
