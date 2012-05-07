@@ -13,6 +13,7 @@
 @interface Drug_CalculatorViewController : UIViewController 
 @property (strong, nonatomic) IBOutlet UILabel *troughValueLabel;
 @property (strong, nonatomic) IBOutlet UILabel *peakValueLabel;
+@property  (strong, nonatomic) NSString *drug;
 
 
 -(IBAction)calculatePressed:(UIButton *)sender; 
