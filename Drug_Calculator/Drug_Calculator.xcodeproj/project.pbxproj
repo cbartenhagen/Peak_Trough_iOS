@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600785BD15575D8B0031A8C4 /* Drug_SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600785BB15575D8B0031A8C4 /* Drug_SelectionViewController.m */; };
+		600785BE15575D8B0031A8C4 /* Drug_SelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 600785BC15575D8B0031A8C4 /* Drug_SelectionViewController.xib */; };
 		608D1CB2154602340031ECBA /* Drug_Calculator_Brain.m in Sources */ = {isa = PBXBuildFile; fileRef = 608D1CB1154602340031ECBA /* Drug_Calculator_Brain.m */; };
 		60E8A27E15495B2F0042DEED /* DatePickerInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E8A27D15495B2E0042DEED /* DatePickerInputView.m */; };
 		60F72FC91546080400B19333 /* Drug_CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F72FC81546080300B19333 /* Drug_CalculatorViewController.m */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		600785BA15575D8B0031A8C4 /* Drug_SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drug_SelectionViewController.h; sourceTree = "<group>"; };
+		600785BB15575D8B0031A8C4 /* Drug_SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drug_SelectionViewController.m; sourceTree = "<group>"; };
+		600785BC15575D8B0031A8C4 /* Drug_SelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Drug_SelectionViewController.xib; sourceTree = "<group>"; };
 		608D1CB0154602340031ECBA /* Drug_Calculator_Brain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drug_Calculator_Brain.h; sourceTree = "<group>"; };
 		608D1CB1154602340031ECBA /* Drug_Calculator_Brain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drug_Calculator_Brain.m; sourceTree = "<group>"; };
 		60E8A27C15495B2E0042DEED /* DatePickerInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerInputView.h; sourceTree = "<group>"; };
@@ -93,6 +98,9 @@
 				D85355CE152A6EBD00A2209F /* Supporting Files */,
 				60E8A27C15495B2E0042DEED /* DatePickerInputView.h */,
 				60E8A27D15495B2E0042DEED /* DatePickerInputView.m */,
+				600785BA15575D8B0031A8C4 /* Drug_SelectionViewController.h */,
+				600785BB15575D8B0031A8C4 /* Drug_SelectionViewController.m */,
+				600785BC15575D8B0031A8C4 /* Drug_SelectionViewController.xib */,
 			);
 			path = Drug_Calculator;
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 			files = (
 				D85355D2152A6EBD00A2209F /* InfoPlist.strings in Resources */,
 				D85355DB152A6EBD00A2209F /* MainStoryboard.storyboard in Resources */,
+				600785BE15575D8B0031A8C4 /* Drug_SelectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				608D1CB2154602340031ECBA /* Drug_Calculator_Brain.m in Sources */,
 				60F72FC91546080400B19333 /* Drug_CalculatorViewController.m in Sources */,
 				60E8A27E15495B2F0042DEED /* DatePickerInputView.m in Sources */,
+				600785BD15575D8B0031A8C4 /* Drug_SelectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
